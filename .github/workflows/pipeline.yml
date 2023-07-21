@@ -17,7 +17,7 @@ jobs:
     name: Compile rootfs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install dependencies for build (Apt)
         run: |
           sudo env DEBIAN_FRONTEND=noninteractive apt update -y && \
@@ -41,7 +41,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/download-artifact@v2
         with:
           path: |
