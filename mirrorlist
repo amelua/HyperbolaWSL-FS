@@ -1,0 +1,65 @@
+# Hyperbola GNU/Linux-libre - Last Updated: Sun Mar 27 06:26:45 CEST 2022
+
+# Location: Cuenca, Ecuador
+# Responsible: Red CEDIA
+# Work hours: 24*7
+  Server = https://mirror.cedia.org.ec/hyperbola/gnu-plus-linux-libre/stable/$repo/os/$arch
+
+# Location: Utrecht, Netherlands
+# Responsible: Vereniging NLUUG
+# Work hours: 24*7
+  Server = https://ftp.nluug.nl/os/Linux/distr/hyperbola/gnu-plus-linux-libre/stable/$repo/os/$arch
+
+# Location: Boston, USA
+# Responsible: Free Software Foundation
+# Work hours: 24*7
+  Server = https://mirror.fsf.org/hyperbola/gnu-plus-linux-libre/stable/$repo/os/$arch
+
+# Location: Amsterdam, Netherlands
+# Responsible: Isaac David
+# Work hours: 24*7
+  Server = https://hyperbola.isacdaavid.info/gnu-plus-linux-libre/stable/$repo/os/$arch
+
+# Location: Siauliai, Lithuania
+# Responsible: Hyperbola Project
+  Server = https://repo.hyperbola.info:50012/gnu-plus-linux-libre/stable/$repo/os/$arch
+
+# Location: Amsterdam, Netherlands
+# Responsible: Luke .R
+# Work hours: 24*7
+# Note: Darknet mirror for Tor (requires special settings in pacman.conf, only use if you know what you are doing)
+# Server = http://antd4nwolq3tmqsz.onion/gnu-plus-linux-libre/stable/$repo/os/$arch
+
+# Location: Amsterdam, Netherlands
+# Responsible: Luke .R
+# Work hours: 24*7
+# Note: Darknet mirror for I2P (requires special settings in pacman.conf, only use if you know what you are doing)
+# Server = http://mp3p7nzaz5zic5qbdmqsrus4uxxumznvg67a7rmpyawj7fps2mva.b32.i2p:8080/gnu-plus-linux-libre/stable/$repo/os/$arch
+
+# Location: Cuenca, Ecuador
+# Responsible: Red CEDIA
+# Work hours: 24*7
+# Note: Only for development and debugging
+# Server = https://mirror.cedia.org.ec/hyperbola/gnu-plus-linux-libre/testing/$repo/os/$arch
+
+# Location: Utrecht, Netherlands
+# Responsible: Vereniging NLUUG
+# Work hours: 24*7
+# Note: Only for development and debugging
+# Server = https://ftp.nluug.nl/os/Linux/distr/hyperbola/gnu-plus-linux-libre/testing/$repo/os/$arch
+
+# Location: Boston, USA
+# Responsible: Free Software Foundation
+# Work hours: 24*7
+# Note: Only for development and debugging
+# Server = https://mirror.fsf.org/hyperbola/gnu-plus-linux-libre/testing/$repo/os/$arch
+
+# Location: Siauliai, Lithuania
+# Responsible: Hyperbola Project
+# Note: Only for development and debugging
+# Server = https://repo.hyperbola.info:50011/gnu-plus-linux-libre/testing/$repo/os/$arch
+
+# Location: Siauliai, Lithuania
+# Responsible: Hyperbola Project
+# Note: Only for legacy backup purpose
+# Server = https://repo.hyperbola.info:50013/gnu-plus-linux-libre/old-stable/$repo/os/$arch
