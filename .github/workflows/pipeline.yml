@@ -8,15 +8,11 @@ on:
     branches:
       - main
 
-jobs:
-  avoidRedundancy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.11.0
-        with:
-          access_token: ${{ secrets.GITHUB_TOKEN }}
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref == 'refs/heads/main' && github.run_id || github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
+jobs:
   build:
     name: Compile rootfs
     runs-on: ubuntu-latest
