@@ -6,7 +6,7 @@ BASE_URL=https://archive.fridu.us/hyperbola/iso/2023.07.16/hyperbola-bootstrap.t
 FRTCP_URL=https://github.com/amelua/hyper-prebuild/raw/main/packages/fakeroot-1.24-5-x86_64.pkg.tar.lz
 GLIBC_URL=https://github.com/amelua/hyper-prebuild/raw/main/packages/glibc-2.30-3-x86_64.pkg.tar.lz
 AL_KEYRING_URL=https://github.com/amelua/hyper-prebuild/raw/main/packages/hyperbola-keyring-20201208-1-any.pkg.tar.lz
-PAC_PKGS=hyperbola-keyring base less nano sudo vim curl
+PAC_PKGS=hyperbola-keyring base less nano doas vim curl
 
 all: $(OUT_TGZ)
 
