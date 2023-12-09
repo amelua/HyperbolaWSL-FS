@@ -15,7 +15,9 @@ concurrency:
 jobs:
   build:
     name: Compile rootfs
-    runs-on: ubuntu-latest
+    runs-on:
+      group: Default
+      labels: self-hosted
     steps:
       - uses: actions/checkout@v3
       - name: Install dependencies for build (Apt)
@@ -36,7 +38,9 @@ jobs:
   deploy:
     needs: [ build ]
     name: Publish on Github
-    runs-on: ubuntu-latest
+    runs-on:
+      group: Default
+      labels: self-hosted
     if: startsWith(github.ref, 'refs/tags/')
     permissions:
       contents: write
