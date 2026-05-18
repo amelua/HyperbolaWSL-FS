@@ -2,7 +2,7 @@ OUT_TGZ=rootfs.tar.gz
 
 DLR=curl
 DLR_FLAGS=-L
-BASE_URL=https://archive.fridu.us/hyperbola/iso/2023.07.16/hyperbola-bootstrap.tar.gz
+BASE_URL=https://archive.fridu.us/hyperbola/iso/2024.07.21/hyperbola-bootstrap-x86_64.tar.gz
 FRTCP_URL=https://github.com/amelua/hyper-prebuild/raw/main/packages/fakeroot-1.24-5-x86_64.pkg.tar.lz
 GLIBC_URL=https://github.com/amelua/hyper-prebuild/raw/main/packages/glibc-2.30-3-x86_64.pkg.tar.lz
 AL_KEYRING_URL=https://github.com/amelua/hyper-prebuild/raw/main/packages/hyperbola-keyring-20201208-1-any.pkg.tar.lz
